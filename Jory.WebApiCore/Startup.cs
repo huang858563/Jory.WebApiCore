@@ -46,8 +46,8 @@ namespace Jory.WebApiCore
                 });
                 //添加读取注释服务
             var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-        var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-        c.IncludeXmlComments(xmlPath,true);
+            var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+            c.IncludeXmlComments(xmlPath,true);
 
         //手动高亮
                 //添加header验证信息
