@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Jory.WebApiCore</name>
+    </assembly>
+    <members>
+        <member name="T:Jory.WebApiCore.Controllers.ValuesController">
+            <summary>
+            接口文档
+            </summary>
+        </member>
+        <member name="M:Jory.WebApiCore.Controllers.ValuesController.Get">
+            <summary>
+            获取所有
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Jory.WebApiCore.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            获取单个
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Jory.WebApiCore.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            提交值
+            </summary>
+            <param name="value"></param>
+        </member>
+    </members>
+</doc>

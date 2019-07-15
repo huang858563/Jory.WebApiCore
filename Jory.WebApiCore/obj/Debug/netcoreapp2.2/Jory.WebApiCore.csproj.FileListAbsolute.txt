@@ -1,0 +1,16 @@
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.csprojAssemblyReference.cache
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.csproj.CoreCompileInputs.cache
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.RazorAssemblyInfo.cache
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.RazorAssemblyInfo.cs
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.AssemblyInfoInputs.cache
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.AssemblyInfo.cs
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/bin/Debug/netcoreapp2.2/Jory.WebApiCore.deps.json
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/bin/Debug/netcoreapp2.2/Jory.WebApiCore.runtimeconfig.json
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/bin/Debug/netcoreapp2.2/Jory.WebApiCore.runtimeconfig.dev.json
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/bin/Debug/netcoreapp2.2/Jory.WebApiCore.dll
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/bin/Debug/netcoreapp2.2/Jory.WebApiCore.pdb
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/bin/Debug/netcoreapp2.2/Jory.WebApiCore.xml
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.RazorTargetAssemblyInfo.cache
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.dll
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.xml
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.pdb
