@@ -4,6 +4,17 @@
         <name>Jory.WebApiCore</name>
     </assembly>
     <members>
+        <member name="T:Jory.WebApiCore.Controllers.HomeController">
+            <summary>
+            Home控制器
+            </summary>
+        </member>
+        <member name="M:Jory.WebApiCore.Controllers.HomeController.Get">
+            <summary>
+            获取用户信息
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:Jory.WebApiCore.Controllers.ValuesController">
             <summary>
             接口文档

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Jory.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Jory.Model.UserInfo">
+            <summary>
+            用户信息类
+            </summary>
+        </member>
+        <member name="P:Jory.Model.UserInfo.UserCode">
+            <summary>
+            用户代码
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Jory.Model.UserInfo.UserName">
+            <summary>
+            用户名称
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Jory.Model.UserInfo.UserPwd">
+            <summary>
+            用户密码
+            </summary>
+            <value></value>
+        </member>
+    </members>
+</doc>

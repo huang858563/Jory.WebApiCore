@@ -14,3 +14,7 @@
 /Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.dll
 /Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.xml
 /Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.pdb
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/bin/Debug/netcoreapp2.2/Jory.Model.dll
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/bin/Debug/netcoreapp2.2/Jory.Model.pdb
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/bin/Debug/netcoreapp2.2/Jory.Model.xml
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.WebApiCore/obj/Debug/netcoreapp2.2/Jory.WebApiCore.csproj.CopyComplete

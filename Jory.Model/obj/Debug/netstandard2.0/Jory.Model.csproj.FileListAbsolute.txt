@@ -1,0 +1,11 @@
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/obj/Debug/netstandard2.0/Jory.Model.csprojAssemblyReference.cache
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/obj/Debug/netstandard2.0/Jory.Model.csproj.CoreCompileInputs.cache
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/obj/Debug/netstandard2.0/Jory.Model.AssemblyInfoInputs.cache
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/obj/Debug/netstandard2.0/Jory.Model.AssemblyInfo.cs
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/bin/Debug/netstandard2.0/Jory.Model.deps.json
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/bin/Debug/netstandard2.0/Jory.Model.dll
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/bin/Debug/netstandard2.0/Jory.Model.pdb
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/bin/Debug/netstandard2.0/Jory.Model.xml
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/obj/Debug/netstandard2.0/Jory.Model.dll
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/obj/Debug/netstandard2.0/Jory.Model.xml
+/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/obj/Debug/netstandard2.0/Jory.Model.pdb

@@ -2974,6 +2974,15 @@
           }
         }
       },
+      "sqlSugar/5.0.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/SqlSugar.dll": {}
+        },
+        "runtime": {
+          "lib/SqlSugar.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -4494,6 +4503,16 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
+        }
+      },
+      "Jory.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Jory.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jory.Model.dll": {}
         }
       }
     }
@@ -7724,6 +7743,18 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "sqlSugar/5.0.0.9": {
+      "sha512": "f7ahEBlIpcBp/MhQG18g1zTGFnHRgfDRwvX84AocCu3q5No+iWyb18aS6R8ToIG2INhDZ/L7ILStxsalEPcaow==",
+      "type": "package",
+      "path": "sqlsugar/5.0.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/SqlSugar.dll",
+        "sqlsugar.5.0.0.9.nupkg.sha512",
+        "sqlsugar.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/4.0.1": {
@@ -12207,13 +12238,20 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Jory.Model/1.0.0": {
+      "type": "project",
+      "path": "../Jory.Model/Jory.Model.csproj",
+      "msbuildProject": "../Jory.Model/Jory.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Jory.Model >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
+      "SqlSugar",
       "Swashbuckle.AspNetCore >= 4.0.1"
     ]
   },
@@ -12244,7 +12282,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/Jory.Model.csproj": {
+              "projectPath": "/Users/gaoweihui/Desktop/jory.webapicore/Jory.Model/Jory.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -12273,6 +12315,10 @@
             "version": "[2.2.0, )",
             "autoReferenced": true
           },
+          "SqlSugar": {
+            "target": "Package",
+            "version": "(, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[4.0.1, )"
@@ -12285,5 +12331,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'sqlSugar 5.0.0.9' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
+      "libraryId": "sqlSugar",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.2"
+      ]
+    }
+  ]
 }

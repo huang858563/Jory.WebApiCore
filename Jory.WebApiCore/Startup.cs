@@ -39,31 +39,36 @@ namespace Jory.WebApiCore
                     Title = "Jory WebAPI",
                     Description = "接口文档",
                     TermsOfService = "None",
-                    Contact = new Contact { 
-                        Name = "Jory", 
+                    Contact = new Contact
+                    {
+                        Name = "Jory",
                         Email = "jory@mail.com",
-                        Url = "http://www.cnblogs.com/Jory" }
+                        Url = "http://www.cnblogs.com/Jory"
+                    }
                 });
                 //添加读取注释服务
-            var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-            var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-            c.IncludeXmlComments(xmlPath,true);
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath, true);
+                var modelXmlFile = "Jory.Model.xml";
+                var modelXmlPath = Path.Combine(AppContext.BaseDirectory, modelXmlFile);
+                c.IncludeXmlComments(modelXmlPath, true);
 
-        //手动高亮
+                //手动高亮
                 //添加header验证信息
                 //c.OperationFilter<SwaggerHeader>();
-                var security = new Dictionary<string, IEnumerable<string>> { { "Bearer", new string[] { } }, };
-                c.AddSecurityRequirement(security);//添加一个必须的全局安全信息，和AddSecurityDefinition方法指定的方案名称要一致，这里是Bearer。
-                c.AddSecurityDefinition("Bearer", new ApiKeyScheme
-                {
-                    Description = "JWT授权(数据将在请求头中进行传输) 参数结构: \"Authorization: Bearer {token}\"",
-                    Name = "Authorization",//jwt默认的参数名称
-                    In = "header",//jwt默认存放Authorization信息的位置(请求头中)
-                    Type = "apiKey"
-                });
+                // var security = new Dictionary<string, IEnumerable<string>> { { "Bearer", new string[] { } }, };
+                // c.AddSecurityRequirement(security);//添加一个必须的全局安全信息，和AddSecurityDefinition方法指定的方案名称要一致，这里是Bearer。
+                // c.AddSecurityDefinition("Bearer", new ApiKeyScheme
+                // {
+                //     Description = "JWT授权(数据将在请求头中进行传输) 参数结构: \"Authorization: Bearer {token}\"",
+                //     Name = "Authorization",//jwt默认的参数名称
+                //     In = "header",//jwt默认存放Authorization信息的位置(请求头中)
+                //     Type = "apiKey"
+                // });
             });
 
-            
+
             #endregion
         }
 
@@ -83,7 +88,7 @@ namespace Jory.WebApiCore
             app.UseHttpsRedirection();
             app.UseMvc();
 
-             #region Swagger
+            #region Swagger
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
